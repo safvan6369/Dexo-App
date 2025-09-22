@@ -1,0 +1,17 @@
+export const detoxActivities = [
+  { id: 1, title: 'Read a Book', description: 'Engage your mind with a physical book.' },
+  { id: 2, title: 'Meditate', description: 'Practice mindfulness for 15 minutes.' },
+  { id: 3, title: 'Go for a Walk', description: 'Connect with nature, no phone allowed.' },
+  { id: 4, title: 'Journaling', description: 'Write down your thoughts and feelings.' },
+  { id: 5, title: 'Tidy Your Space', description: 'Organize your room or desk for a clear mind.' },
+  { id: 6, title: 'Stretch', description: 'Do some light stretching or yoga.' },
+  { id: 7, title: 'Listen to Music', description: 'Enjoy an album without distractions.' },
+  { id: 8, title: 'Draw or Paint', description: 'Express yourself creatively.' },
+  { id: 9, title: 'Learn Something New', description: 'Watch a documentary or read an article about a new topic.' },
+  { id: 10, title: 'Deep Breathing Exercises', description: 'Practice controlled breathing for relaxation.' },
+  { id: 11, title: 'Write a Letter', description: 'Connect with someone without digital interference.' },
+  { id: 12, title: 'Practice a New Language', description: 'Dedicate time to language learning.'},
+  { id: 13, title: 'Work on a Hobby', description: 'Engage in a non-digital hobby like knitting or playing an instrument.'},
+  { id: 14, title: 'Do a Puzzle', description: 'Solve a jigsaw, crossword, or Sudoku puzzle.'},
+  { id: 15, title: 'Garden', description: 'Spend time outdoors tending to plants.'},
+];

@@ -1,0 +1,42 @@
+.activity-list-container {
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.activity-list-container h2 {
+  text-align: center;
+  color: #eee;
+  margin-bottom: 1.5rem;
+}
+
+/* Styles for the grid on the Dashboard */
+.activity-grid-small {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+.activity-item-small {
+  background-color: #2e2e2e;
+  padding: 1.5rem;
+  border-radius: 8px;
+  border-left: 5px solid #4caf50;
+  transition: transform 0.2s;
+}
+
+.activity-item-small:hover {
+  transform: translateY(-5px);
+}
+
+.activity-item-small h3 {
+  margin-top: 0;
+  color: #ffffff;
+}
+
+.activity-item-small p {
+  color: #b0b0b0;
+  margin-bottom: 0;
+  font-size: 0.9rem; /* Smaller description on dashboard */
+}

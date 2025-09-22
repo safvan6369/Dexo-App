@@ -1,0 +1,11 @@
+.App {
+  min-height: 100vh;
+  background-color: #121212;
+  color: white;
+}
+
+.container {
+  max-width: 960px; /* Wider for a platform feel */
+  margin: 0 auto;
+  padding: 2rem;
+}

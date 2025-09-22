@@ -1,0 +1,42 @@
+.quote-container {
+  background-color: #252525;
+  border: 1px solid #444;
+  padding: 1.5rem;
+  border-radius: 8px;
+  text-align: center;
+  margin-top: 2rem;
+  color: #ddd;
+}
+
+.quote-container h3 {
+  margin-top: 0;
+  color: #fff;
+}
+
+.quote-container blockquote {
+  border-left: 3px solid #4caf50;
+  margin: 1rem;
+  padding-left: 1rem;
+  font-style: italic;
+}
+
+.quote-container footer {
+  margin-top: 0.5rem;
+  color: #aaa;
+}
+
+.quote-container button {
+  background-color: transparent;
+  border: 1px solid #4caf50;
+  color: #4caf50;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 1rem;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.quote-container button:hover {
+  background-color: #4caf50;
+  color: #fff;
+}
